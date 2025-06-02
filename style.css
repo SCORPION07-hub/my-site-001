@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: #25D366;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+.service, .carousel-item {
+  background: white;
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.service:hover, .carousel-item:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+#chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  background: white;
+  border: 2px solid #1f1c2c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+#chat-header {
+  background: #1f1c2c;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#chat-body {
+  padding: 1em;
+}
+
+button {
+  background: #1f1c2c;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #928dab;
+}
